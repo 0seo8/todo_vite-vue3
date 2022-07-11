@@ -143,7 +143,8 @@ interface RequestOptions {
 }
 async function request(options: RequestOptions) {
   const { id = '', method, body } = options
-  const res = await fetch(`https://asia-northeast3-heropy-api.cloudfunctions.net/api/notion/workspaces/${id}`, {
+
+  const res = await fetch('/.netlify/functions/workspace', {
     method,
     headers: {
       'content-type': 'application/json',
