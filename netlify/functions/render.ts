@@ -63,7 +63,10 @@ const handler: Handler = async event => {
 
       </head>
       <body>
-        Hello Render!!
+        <div id="app">
+         <!-- <App /> -->
+        </div>
+    
       </body>
     </html>
     `
