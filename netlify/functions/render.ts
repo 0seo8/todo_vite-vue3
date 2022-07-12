@@ -64,7 +64,6 @@ const handler: Handler = async event => {
       </head>
       <body>
         <div id="app">
-         <!-- <App /> -->
         </div>
     
       </body>
